@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(239, 242, 243);
+
+}
+h1 {
+    margin-bottom: 10px;
+    font-family: 'Bangers';
+    text-align: center;
+    font-size: 30px;
+}
+h2 {
+    font-family: 'Lobster', cursive; 
+    font-size: 18px;   
+}
+p {
+    font-family: 'McLaren', cursive;
+    font-size: 12px;
+}
+
+hr {
+    border: 2px solid black;
+}
+
+.textfeld {
+    width: 30%;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html> <!-- Sagt dem Browser das es HTML ist.-->
+<html lang="de">
+    <head>
+        <meta charset="utf-8"> <!--Definiert die Buchstaben-->
+        <title>Anmeldung Event</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Bangers|Lobster|McLaren&display=swap" rel="stylesheet">
+        </head>
+    <body>
+            <form
+            action="https://formspree.io/mknwkkro"
+            method="POST"> 
+        <h1>Anmeldung Event</h1>
+        <hr>
+        <input type="text" name="Vorname" placeholder="Vorname" class="text"><br>
+        <input type="text" name="Nachname" placeholder="Nachname">
+        <input type="email" name="email" placeholder="E-Mail" class="textfeld"><br>
+        <input type="text" name="Addresse" placeholder="Strasse" class="textfeld"><br>
+        <input type="text" name="Ort" placeholder="PLZ und Ort" class="textfeld"><br>
+        <input type="text" name="Tel." placeholder="Telefunnummer" class="textfeld"><br>
+        <select class="textfeld" name="Abotyp">
+            <option value="1">Kein Abo</option>
+            <option value="2">GA</option>
+            <option value="3">Halbtax</option>
+            <option value="4">Streckenabo Luzern-Zürich</option>
+        </select><br>
+        <br>
+        
+        <input type="radio" id="r1" name="Abendessen" value="MC-Donalds">
+        <label for="r1">MC-Donalds</label><br />
+        
+        <input type="radio" id="r2" name="Abendessen" value="Döner">
+        <label for="r2">Döner</label><br />
+        
+        <h2>Mit Übernachtung</h2>
+        <input type="checkbox" id="c1">
+        <label for="c1">Ich übernachte im Hotel</label><br /> 
+        
+        <h2>Zimmer</h2>
+        <input type="radio" id="r3" name="Übernachtung" value="Einzelzimmer">
+        <label for="r3">Einzelzimmer</label><br />
+        
+        <input type="radio" id="r4" name="Übernachtung" value="Doppelzimmer">
+        <label for="r4">Doppelzimmer</label><br />
+
+        <textarea name="Bemerkungen" cols="40" rows="10">Bemerkungen?</textarea>
+
+        <button type="submit">Send</button>
+        </form>
+        
+    </body>
+</html>

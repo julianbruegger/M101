@@ -1,0 +1,50 @@
+.container {
+    display: grid;
+    margin: 0 auto;
+    width: 1100px;
+    grid-template-rows: 200px 200px 300px 200px 200px 200px;
+    grid-template-columns: 20% 60% 20%;
+    
+
+
+    grid-template-areas: 
+    "header header header"
+    "nav nav nav"
+    "subnav main sidebar"
+    "footer footer footer"
+    ;
+}
+header{
+    grid-area: header;
+}
+
+nav{
+    grid-area: nav;
+}
+
+
+main{
+    grid-area: main;
+}
+
+aside.sub{
+    grid-area: subnav;
+
+}
+aside.side{
+grid-area: sidebar;
+
+}
+
+footer
+{
+    grid-area: footer;
+}
+
+.container > * {
+    outline: 1px solid lightpink;
+  }
+  @media screen and (max-width: 1200px) {
+      .container {
+        width: 90%;}
+    }

@@ -1,0 +1,60 @@
+body {
+	border: 1px solid #888888;
+	margin: 3% auto;
+	width: 21cm;
+	min-height: 27.9cm;
+	box-shadow: -6px 6px 12px #888888;
+    padding: 2cm 2.5cm;
+    font-family: Arial;
+    line-height: 1.5;
+}
+h2 {
+    line-height: 1.5;
+
+}
+h1 {
+    font-family: 'McLaren', cursive;
+}
+.logo
+{
+    width: 225px;
+    margin-top: 30px;
+}
+.Empfänger
+{
+    margin-left: 50%;
+    margin-bottom: 100px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: lightgray;
+}
+td, th {
+    border: solid 1px;
+  
+
+}
+.result {
+
+    border-bottom: double;
+}
+.hide {
+    border-left: none;
+    border-right: none; 
+    border-bottom: none;
+}
+
+.Unterschrift
+{
+    height: 60px;
+    margin-bottom: 50px;
+}
+.Social-Media {
+    width: 55px;
+    margin-left: 5px ;
+}
